@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: paypal-payment
+paypal:
+  client-id: BAAWcFJ8kKZAvItJLsLKCijtp2KCLhWF5z3Ix37gUYirWLcSAow6QF6VCfGVX6UnAibU8wHasl5bg9-bhA
+  client-secret: EK1v54BJUnT1Z_NFQKJxVmFyTs3qKEC0p00dvx_tJTKterUFDUYmSVTCUrwFgoxso3ERH4iFIC9EDLgQ
+  mode: sandbox # ប្រើ 'sandbox' សម្រាប់តេស្ត និង 'live' សម្រាប់ដាក់ឱ្យប្រើប្រាស់ពិតប្រាកដ
